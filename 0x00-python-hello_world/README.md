@@ -1,2 +1,1 @@
-python helloworld
-t
+Python basics
