@@ -3,7 +3,6 @@
 /**
  * reverse_listint - reverses a linked list
  * @head: pointer to the first node in the list
- *
  * Return: pointer to the first node in the new list
  */
 void reverse_listint(listint_t **head)
@@ -42,6 +41,7 @@ int is_palindrome(listint_t **head)
 		if (!fast)
 		{
 			dup = slow->next;
+
 			break;
 		}
 		if (!fast->next)
