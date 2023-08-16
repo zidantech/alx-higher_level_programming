@@ -1,4 +1,4 @@
 #!/usr/bin/node
 
-var myVar
-myVar === console.log("JavaScript is amazing")
+let myVar;
+myVar === console.log('JavaScript is amazing');
